@@ -1,0 +1,30 @@
+@import "../abstracts/variables";
+
+header {
+    display: flex;
+
+    .header-container {
+        height: 75px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+    
+        .header-logo {
+            height: 80%;
+            margin: 0 10px;
+        }
+    
+        .header-title {
+    
+            .italic {
+                font-style: italic;
+                color: $background-body-light
+            }
+        }
+    }
+    
+    .dark-container {
+        width: 10%;
+    }
+}
+
