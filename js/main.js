@@ -6,7 +6,6 @@ const cardsDolar = async () => {
     try {
         const resp = await fetch(URLDolar);
         const data = await resp.json();
-        console.table (data)
 
         data.forEach(element => {
             dolarContainer.innerHTML += `
